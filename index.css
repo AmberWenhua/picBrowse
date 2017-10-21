@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+img{
+    border: 0;
+}
+
+.flash{
+    width: 1180px;
+    height: 450px;
+    margin: 100px auto;
+    border: 1px solid rosybrown;
+    position: relative;
+}
+.flash ul li{
+    float: left;
+    border-left: 1px solid #000;
+    width: 106px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+.imgTop img{
+    opacity:0.4;
+}
+.imgTop .tm{
+    opacity: 1;
+}
+.imgCen{
+    width: 538px;
+    height: 50px;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    font-size:20px;
+    line-height:50px;
+    position:absolute;
+    left:0;
+    bottom:45px;
+    display: none;
+}
+.imgCen span{
+    position: absolute;
+    right: 22px;
+}
+.imgBot .bt_1{
+    float: left;
+    width:80px;
+    line-height:45px;
+    color:#fff;
+    font-size:16px;
+}
+.imgBot .bt_2{
+    width: 458px;
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    display: none;
+}
+.imgBot .bt_2 span{
+    font-size: 14px;
+    color: #fff;
+    padding-right: 30px;
+}
+.imgBot .bt_2 a{
+    font-size: 16px;
+    color: #fff;
+    padding-right: 30px;
+    position: absolute;
+    right: 20px;
+}
+.imgBot .bt_2 a:hover{
+    color: #E53941;
+}
+.flash ul li:first-child{
+    width: 538px;
+}
+.flash ul li:last-child{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
