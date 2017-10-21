@@ -1,2 +1,2 @@
-# picBrowse
-browse the pictures
+# 图片浏览
+<p>主要是使用JQuery设置其动画效果</p>
